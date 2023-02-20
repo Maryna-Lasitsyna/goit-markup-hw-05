@@ -522,7 +522,9 @@ img {
   border: 1px solid var(--footer-text-color);
   border-radius: 4px;
   padding: 12px 24px;
-  transition: color, background-color, border-color,
+  transition: color var(--transition-dur-and-fun),
+    background-color var(--transition-dur-and-fun),
+    border-color var(--transition-dur-and-fun),
     box-shadow var(--transition-dur-and-fun);
 }
 .filter-btn:hover,
